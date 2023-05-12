@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-horizontal{
+    overflow: visible;
+}
+
+@layer components{
+    .r-container{
+        max-width: 1280px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blue-gradient{
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(136,160,255,0.46)217.91%);
+    }
+    .blue-shadow{
+        box-shadow: 0px 72px 49px -51px rgba(136,160,255,0.21);
+    }
+    .border-real{
+        border: .8px solid rgba(128,128,128,.143);
+    }
+    .cta-border{
+        border: 6px solid #5d77d6;
+    }
+    .active{
+        border-bottom: 3px solid #5d77d6;
+    }
+}
